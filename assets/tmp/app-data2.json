@@ -1,0 +1,350 @@
+{
+    "app": {
+      "name": "Alain",
+      "description": "Ng-zorro admin panel front-end framework"
+    },
+    "user": {
+      "name": "Admin",
+      "avatar": "./assets/tmp/img/avatar.jpg",
+      "email": "cipchk@qq.com"
+    },
+    "menu": [
+      {
+        "text": "应用",
+        "i18n": "应用",
+        "group": true,
+        "hideInBreadcrumb": true,
+        "children": [
+          {
+            "text": "道具管理",
+            "i18n": "道具管理",
+            "link": "/extras",
+            "icon": "anticon-trophy",
+            "children": [
+              {
+                "text": "礼物列表",
+                "link": "/gift",
+                "i18n": "礼物列表"
+              },
+              {
+                "text": "消耗统计",
+                "link": "/xxxxxxxxxxxxxx",
+                "i18n": "消耗统计"
+              },
+              {
+                "text": "靓号管理",
+                "link": "/liveaccount",
+                "i18n": "靓号管理"
+              },
+              {
+                "text": "贵族管理",
+                "link": "/noble",
+                "i18n": "贵族管理"
+              },
+              {
+                "text": "守护管理",
+                "link": "/guard",
+                "i18n": "守护管理"
+              },
+              {
+                "text": "坐骑管理",
+                "link": "/mount",
+                "i18n": "坐骑管理"
+              }
+            ]
+          },
+          {
+            "text": "直播管理",
+            "i18n": "直播管理",
+            "link": "/live",
+            "icon": "anticon-audio",
+            "children": [
+              {
+                "text": "分类管理",
+                "link": "/xxxxxxxxxxxxxx",
+                "i18n": "分类管理"
+              },
+              {
+                "text": "直播记录",
+                "link": "/xxxxxxxxxxxxxx",
+                "i18n": "直播记录"
+              },
+              {
+                "text": "监控",
+                "link": "/xxxxxxxxxxxxxx",
+                "i18n": "监控"
+              },
+              {
+                "text": "秀币礼物消费记录",
+                "link": "/xxxxxxxxxxxxxx",
+                "i18n": "秀币礼物消费记录"
+              }
+            ]
+          },
+          {
+            "text": "用户管理",
+            "i18n": "用户管理",
+            "link": "/user",
+            "icon": "anticon-user",
+            "children": [
+              {
+                "text": "普通用户",
+                "link": "/liveuser",
+                "i18n": "普通用户"
+              },
+              {
+                "text": "主播管理",
+                "link": "/anchor",
+                "i18n": "主播管理"
+              },
+              {
+                "text": "常见问题管理",
+                "link": "/faq",
+                "i18n": "常见问题管理"
+              }
+            ]
+          },
+          {
+            "text": "视频管理",
+            "i18n": "视频管理",
+            "link": "/video",
+            "icon": "anticon-video-camera",
+            "children": [
+              {
+                "text": "视频列表",
+                "link": "/vid",
+                "i18n": "视频列表"
+              },
+              {
+                "text": "评论列表",
+                "link": "/vidcomment",
+                "i18n": "评论列表"
+              },
+              {
+                "text": "视频审核、分类",
+                "link": "/video-audit",
+                "i18n": "视频审核、分类"
+              }
+            ]
+          },
+          {
+            "text": "即时消息",
+            "i18n": "即时消息",
+            "link": "/im",
+            "icon": "anticon-message",
+            "children": [
+              {
+                "text": "IM记录",
+                "link": "/im",
+                "i18n": "IM记录"
+              }
+            ]
+          },
+          {
+            "text": "认证管理",
+            "i18n": "认证管理",
+            "link": "/xxxxxxxxx",
+            "icon": "anticon-safety-certificate",
+            "children": [
+              {
+                "text": "认证列表",
+                "link": "/xxxxxxxxx",
+                "i18n": "认证列表"
+              }
+            ]
+          },
+          {
+            "text": "举报管理",
+            "i18n": "举报管理",
+            "link": "/xxxxxxxxx",
+            "icon": "anticon-warning",
+            "children": [
+              {
+                "text": "举报列表",
+                "link": "/xxxxxxxxx",
+                "i18n": "举报列表"
+              },
+              {
+                "text": "分类",
+                "link": "/xxxxxxxxx",
+                "i18n": "分类"
+              }
+            ]
+          },
+          {
+            "text": "资金管理",
+            "i18n": "资金管理",
+            "link": "/money",
+            "icon": "anticon-money-collect",
+            "children": [
+              {
+                "text": "统计图表",
+                "link": "/xxxxxxxxxxxxx",
+                "i18n": "统计图表"
+              },
+              {
+                "text": "充值记录",
+                "link": "/xxxxxxxxxxxxx",
+                "i18n": "充值记录"
+              },
+              {
+                "text": "奖励记录",
+                "link": "/xxxxxxxxxxxxx",
+                "i18n": "奖励记录"
+              },
+              {
+                "text": "消费记录",
+                "link": "/xxxxxxxxxxxxx",
+                "i18n": "消费记录"
+              },
+              {
+                "text": "提现记录",
+                "link": "/xxxxxxxxxxxxx",
+                "i18n": "提现记录"
+              }
+            ]
+          },
+          {
+            "text": "网站管理",
+            "i18n": "网站管理",
+            "link": "/extras",
+            "icon": "anticon-database",
+            "children": [
+              {
+                "text": "表管理",
+                "link": "/open-api",
+                "i18n": "表管理"
+              },
+              {
+                "text": "用户管理",
+                "link": "/person",
+                "i18n": "用户管理"
+              },
+              {
+                "text": "组管理",
+                "link": "/team",
+                "i18n": "组管理"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "主导航",
+        "i18n": "menu.main",
+        "group": true,
+        "hideInBreadcrumb": true,
+        "children": [
+          {
+            "text": "仪表盘",
+            "i18n": "menu.dashboard",
+            "icon": "anticon-dashboard",
+            "children": [
+              {
+                "text": "仪表盘V1",
+                "link": "/dashboard/v1",
+                "i18n": "menu.dashboard.v1"
+              },
+              {
+                "text": "分析页",
+                "link": "/dashboard/analysis",
+                "i18n": "menu.dashboard.analysis"
+              },
+              {
+                "text": "监控页",
+                "link": "/dashboard/monitor",
+                "i18n": "menu.dashboard.monitor"
+              },
+              {
+                "text": "工作台",
+                "link": "/dashboard/workplace",
+                "i18n": "menu.dashboard.workplace"
+              }
+            ]
+          },
+          {
+            "text": "快捷菜单",
+            "i18n": "menu.shortcut",
+            "icon": "anticon-rocket",
+            "shortcutRoot": true,
+            "children": []
+          },
+          {
+            "text": "小部件",
+            "i18n": "menu.widgets",
+            "link": "/widgets",
+            "icon": "anticon-appstore",
+            "badge": 2
+          }
+        ]
+      },
+      {
+        "text": "Pro",
+        "i18n": "menu.pro",
+        "group": true,
+        "hideInBreadcrumb": true,
+        "children": [
+          {
+            "text": "Result",
+            "i18n": "menu.result",
+            "icon": "anticon-check-circle",
+            "children": [
+              {
+                "text": "Success",
+                "link": "/pro/result/success",
+                "i18n": "menu.result.success"
+              },
+              {
+                "text": "Fail",
+                "link": "/pro/result/fail",
+                "i18n": "menu.result.fail"
+              }
+            ]
+          },
+          {
+            "text": "Exception",
+            "i18n": "menu.exception",
+            "link": "/",
+            "icon": "anticon-exception",
+            "children": [
+              {
+                "text": "403",
+                "link": "/exception/403",
+                "i18n": "menu.exception.not-permission",
+                "reuse": false
+              },
+              {
+                "text": "404",
+                "link": "/exception/404",
+                "i18n": "menu.exception.not-find",
+                "reuse": false
+              },
+              {
+                "text": "500",
+                "link": "/exception/500",
+                "i18n": "menu.exception.server-error",
+                "reuse": false
+              }
+            ]
+          },
+          {
+            "text": "Account",
+            "i18n": "menu.account",
+            "icon": "anticon-user",
+            "children": [
+              {
+                "text": "center",
+                "link": "/pro/account/center",
+                "i18n": "menu.account.center"
+              },
+              {
+                "text": "settings",
+                "link": "/pro/account/settings",
+                "i18n": "menu.account.settings"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

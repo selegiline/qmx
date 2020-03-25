@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "Alain",
+    "description": "Ng-zorro admin panel front-end framework"
+  },
+  "user": {
+    "name": "Admin",
+    "avatar": "./assets/tmp/img/avatar.jpg",
+    "email": "cipchk@qq.com"
+  },
+  "menu": [
+    {
+      "text": "应用",
+      "i18n": "应用",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "视频管理",
+          "i18n": "视频管理",
+          "link": "/video",
+          "icon": "anticon-video-camera",
+          "children": [
+            {
+              "text": "视频列表",
+              "link": "/vid",
+              "i18n": "视频列表"
+            },
+            {
+              "text": "评论列表",
+              "link": "/vidcomment",
+              "i18n": "评论列表"
+            },
+            {
+              "text": "视频审核、分类",
+              "link": "/video-audit",
+              "i18n": "视频审核、分类"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
